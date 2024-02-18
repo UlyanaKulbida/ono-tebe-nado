@@ -37,13 +37,12 @@
           <img
             class="header__logo-image"
             src="./images/logo-black.svg"
-            alt="логотип оно тебе надо"
-          >
+            alt="логотип оно тебе надо">
         </a>
 
         <address>
           <a class="address" href="tel:+99995555555">+9 999 555 5555</a>
-          <a class="address" href="info@sobaka.ge">info@sobaka.ge</a>
+          <a class="address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="address">наб. Принсенграхт 263- 265, Амстердам</p>
         </address>
       </div>
@@ -73,7 +72,9 @@
           </p>
 
           <div class="bet-button">
-            <button class="btn" name="button" type="button">Сделать ставку</button>
+            <button class="btn" name="button" type="button">
+              Сделать ставку
+            </button>
           </div>
         </div>
       </section>
@@ -141,25 +142,34 @@
 
       <section class="about">
         <div class="about__column">
+          <!--секция через grid-->
           <div class="about__logo">
             <div class="header__logo-image"></div>
           </div>
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text about__text-first">
-            Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
-            один аукцион. Потому что кому нужен дневник девочки-подростка или
-            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?
-          </p>
-          <p class="about__text about__text-second">
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
-            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
-            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-          </p>
+          <div class="about__text-first">
+            <!--блок с <p> займет в grid grid-row 2 /3-->
+            <p class="about__text about__text-firs">
+              Здесь вы не встретите очередное пафосное собрание невероятно
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
+            </p>
+          </div>
+
+          <div class="about__text-second">
+            <!-- блок с <p> займет в grid grid-row 3 /4-->
+            <p class="about__text">
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих
+              лотов невозможно представить современную культуру. Когда в эти
+              вещи не верил никто, продолжали верить их создатели. И сейчас эти
+              лоты стали культовыми.
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -167,7 +177,7 @@
     <footer>
       <address>
         <a class="address" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address" href="info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
 
@@ -197,8 +207,7 @@
             <img
               src="./images/yt.svg"
               class="footer__social-icon"
-              alt="yotube"
-            >
+              alt="yotube">
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -211,8 +220,7 @@
             <img
               src="./images/pinterest.svg"
               class="footer__social-icon"
-              alt="pinterest"
-            >
+              alt="pinterest">
           </a>
         </li>
       </ul>
