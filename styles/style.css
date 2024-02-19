@@ -38,7 +38,7 @@ header {
   color: #000;
 }
 
-.about_auction {
+.header-container {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -324,26 +324,25 @@ ul {
   justify-self: left;
 }
 
-.about__text {
-  letter-spacing: .003em;
-  line-height: 1.27em;
-}
-
-.about__text-first {
+.about__text-content {
   grid-column: 2 / 3;
   grid-row: 2 /3;
-  
 }
 
-.about__text-second {
-  grid-column: 2 / 3;
-  grid-row: 3 /4;
+.about__text {
+  letter-spacing: .004em;
+  line-height: 1.24em;
+  padding-bottom: 19px;
+} 
+
+.about__text-content p:last-child {
+  padding-bottom: 0;
 }
 
 /*СЕКЦИЯ footer*/
 
 footer {
-  padding: 174px 0 88px;
+  padding: 161px 0 88px;
   display: flex;
   flex-direction: row;
   gap: 90px;
